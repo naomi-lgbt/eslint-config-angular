@@ -1,6 +1,6 @@
 {
   "name": "@nhcarrigan/eslint-config-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Global config for ESLint in Angular projects",
   "main": "index.js",
   "scripts": {
