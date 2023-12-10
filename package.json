@@ -1,0 +1,43 @@
+{
+  "name": "@nhcarrigan/eslint-config-angular",
+  "version": "0.0.0",
+  "description": "Global config for ESLint in Angular projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint test.js --max-warnings 0 -c index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naomi-lgbt/eslint-config-angular.git"
+  },
+  "engines": {
+    "node": "20",
+    "pnpm": "8"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Naomi Carrigan",
+  "license": "SEE LICENSE IN https://docs.nhcarrigan.com/#/license",
+  "bugs": {
+    "url": "https://github.com/naomi-lgbt/eslint-config-angular/issues"
+  },
+  "homepage": "https://github.com/naomi-lgbt/eslint-config-angular#readme",
+  "dependencies": {
+    "@angular-eslint/builder": "17.1.1",
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/schematics": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@nhcarrigan/eslint-config": "3.2.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "@angular/cli": "^17.0.0",
+    "@angular/core": "^17.0.0"
+  },
+  "devDependencies": {
+    "@nhcarrigan/prettier-config": "1.0.1",
+    "prettier": "^3.0.2"
+  }
+}

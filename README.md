@@ -1,20 +1,38 @@
-# New Repository Template
+# Naomi's ESLint Config - Angular
 
-This template contains all of our basic files for a new GitHub repository. There is also a handy workflow that will create an issue on a new repository made from this template, with a checklist for the steps we usually take in setting up a new repository.
-
-If you're starting a Node.JS project with TypeScript, we have a [specific template](https://github.com/naomi-lgbt/nodejs-typescript-template) for that purpose.
-
-## Readme
-
-Delete all of the above text (including this line), and uncomment the below text to use our standard readme template.
-
-<!-- # Project Name
-
-Project Description
+This package holds my ESLint configuration for easy installation and syncing changes across all of my Angular projects.
 
 ## Live Version
 
-This page is currently deployed. [View the live website.]
+This package is currently published. [View the `npm` page](https://www.npmjs.com/package/@nhcarrigan/eslint-config-angular).
+
+## Installation
+
+To install this package, run the following command:
+
+```bash
+npm i @nhcarrigan/eslint-config-angular eslint
+```
+
+## Compatibility
+
+This package is compatible with ESLint 8 and Angular 17.
+
+## Usage
+
+To use this package, add the following to your `.eslintrc.json` file:
+
+```json
+{
+  "extends": "@nhcarrigan/eslint-config-angular"
+}
+```
+
+## Warnings and Errors
+
+A rule is set to be a warning when it is something that is okay during development (e.g. using a `console.log`, or not having a JSDoc definition yet) but should not make it to production code.
+
+A rule is set to an error when it is something that should not occur in development or production (e.g. missing semi-colons, using loose equality).
 
 ## Feedback and Bugs
 
@@ -36,4 +54,4 @@ Copyright held by Naomi Carrigan.
 
 ## Contact
 
-We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via email at `contact@nhcarrigan.com`. -->
+We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via email at `contact@nhcarrigan.com`.
