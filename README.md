@@ -1,22 +1,22 @@
-# Naomi's ESLint Config
+# Naomi's ESLint Config - Angular
 
-This package holds my ESLint configuration for easy installation and syncing changes across projects.
+This package holds my ESLint configuration for easy installation and syncing changes across all of my Angular projects.
 
 ## Live Version
 
-This package is currently published. [View the `npm` page](https://www.npmjs.com/package/@nhcarrigan/eslint-config).
+This package is currently published. [View the `npm` page](https://www.npmjs.com/package/@nhcarrigan/eslint-config-angular).
 
 ## Installation
 
 To install this package, run the following command:
 
 ```bash
-npm i @nhcarrigan/eslint-config eslint
+npm i @nhcarrigan/eslint-config-angular eslint
 ```
 
 ## Compatibility
 
-This package is compatible with ESLint 8.
+This package is compatible with ESLint 8 and Angular 17.
 
 ## Usage
 
@@ -24,7 +24,7 @@ To use this package, add the following to your `.eslintrc.json` file:
 
 ```json
 {
-  "extends": "@nhcarrigan/eslint-config"
+  "extends": "@nhcarrigan/eslint-config-angular"
 }
 ```
 
