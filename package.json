@@ -1,14 +1,14 @@
 {
-  "name": "@nhcarrigan/eslint-config",
-  "version": "3.2.0",
-  "description": "Global config for ESLint",
+  "name": "@nhcarrigan/eslint-config-angular",
+  "version": "0.0.0",
+  "description": "Global config for ESLint in Angular projects",
   "main": "index.js",
   "scripts": {
     "test": "eslint test.js --max-warnings 0 -c index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/naomi-lgbt/eslint-config.git"
+    "url": "git+ssh://git@github.com/naomi-lgbt/eslint-config-angular.git"
   },
   "engines": {
     "node": "20",
@@ -20,20 +20,21 @@
   "author": "Naomi Carrigan",
   "license": "SEE LICENSE IN https://docs.nhcarrigan.com/#/license",
   "bugs": {
-    "url": "https://github.com/naomi-lgbt/eslint-config/issues"
+    "url": "https://github.com/naomi-lgbt/eslint-config-angular/issues"
   },
-  "homepage": "https://github.com/naomi-lgbt/eslint-config#readme",
+  "homepage": "https://github.com/naomi-lgbt/eslint-config-angular#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.62.0",
-    "@typescript-eslint/parser": "5.62.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-import": "2.28.1",
-    "eslint-plugin-jsdoc": "41.1.2",
-    "eslint-plugin-no-only-tests": "3.1.0",
-    "eslint-plugin-prettier": "5.0.0"
+    "@angular-eslint/builder": "17.1.1",
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/schematics": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@nhcarrigan/eslint-config": "3.2.0"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": ">=8",
+    "@angular/cli": "^17.0.0",
+    "@angular/core": "^17.0.0"
   },
   "devDependencies": {
     "@nhcarrigan/prettier-config": "1.0.1",
